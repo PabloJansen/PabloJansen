@@ -1,0 +1,207 @@
+.clearfix {
+    clear: both;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.barra_superior {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    color: rgb(187, 187, 187);
+    font-size: 11px;
+    float: right;
+    margin-top: 50px;
+}
+nav a{
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+.btn_destaque, .metade input[type=submit]{
+    border: none;
+    background-color: rgb(255,77,77);
+    color: white;
+    padding: 12px 40px; 
+    border-radius: 5px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.sec01 {
+    height: 600px;
+    color: white;
+    background-image: url(../img/Home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(164,164,164);
+}
+.sec01 p.titulo {
+    font-size: 48px;
+    padding-top: 130px;
+}
+.sec01 p {
+    font-size: 24px;
+    padding-bottom: 10px;
+    line-height: 120%;
+}
+.sec02 {
+    border-bottom: 1px dotted rgb(204, 204, 204);
+}
+.sec02 p {
+    font-size: 30px;
+    text-align: center;
+}
+.sec02 img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sec03 {
+    background-color: rgb(239, 243, 246);
+    height: 664px;
+    background-image: url(../img/Home2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.sec03 p {
+    font-size: 54px;
+    line-height: 120%;
+    color: rgb(102, 102, 102);
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+}
+.largura40 {
+    width: 35%;
+    float: left;
+    background-color: rgb(239, 243, 246);
+    height: 664px;
+}
+
+.direitos_reservados {
+    background-color: rgb(255,77,77);
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.direitos_reservados a {
+    color: white;
+}
+.um_terco {
+    width: 33%;
+    float: left;
+    color: rgb(136, 136, 136);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.um_terco .logo {
+    width: 100%
+}
+.um_terco img {
+    width: 25px;
+}
+.um_terco, .um_terco a {
+    color: rgb(136, 136, 136);
+}
+.margem_esquerda {
+    margin-left: 60px;
+}
+.sec_fale_onde {
+    height: 500px;
+    background-color: #FAFAFA;
+}
+.metade {
+    color: rgb(120,120,120);
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    padding-top: 100px;
+}
+.metade form {
+    line-height: 250%;
+}
+.metade form input[type=text], textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+    padding: 10px;
+}
+.metade textarea{
+    min-height: 100px;
+}
+.metade input[type=submit]{
+    float: right;
+    margin-right: 80px;
+}
+.metade img {
+    width: 20px;
+}
+.metade label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.metade div, .metade address {
+    margin-left: 50px;
+}
+}
+
+@media screen and (max-width: 480px){
+    .barra_superior .container {
+        margin-left: 10px;
+    }
+    .logo {
+        width: 100%
+    }
+    .container nav {
+        float: none;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .container nav .btn_destaque {
+        font-size: 12px;
+    }
+    .sec01 p, sec01 .btn_destaque {
+        margin-left: 20px;
+    }
+    .sec03 {
+        background-image: none;
+        height: 450px;
+        text-align: center;
+        border-bottom: 1px solid rgb(204,204,204);
+    }
+    .sec03 p{
+        padding-top: 3px; 
+    }
+    .largura40 {
+        width: 100%;
+        height: 450px;
+    }
+    .um_terco{
+        width: 99%;
+        border-bottom: 1px solid rgb(204,204,204);
+        padding-left: 20px;
+    }
+    .margem_esquerda {
+        margin-left: 0px;
+    }
+    .um_terco .logo {
+        width: 50%;
+    }
+    .container_logo {
+        text-align: center;
+    }
+}
